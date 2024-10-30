@@ -1,12 +1,6 @@
-import { useState } from 'react';
-import './App.css';
-import Input from './components/Input';
-import Test1 from './components/Test1';
-import Post from './components/Post';
-import { NavLink, Outlet, Route, Routes } from 'react-router-dom';
-import PostCreate from './components/PostCreate';
-import MotionText from './components/FramerMotion/MotionText';
-import Register from './components/Register';
+
+import { Route, Routes } from 'react-router-dom';
+
 import AdminsPage from './components/router-example/Admins';
 import UsersPage from './components/router-example/Users';
 import ProductPage from './components/router-example/Products';
